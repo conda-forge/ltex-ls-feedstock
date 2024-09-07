@@ -11,10 +11,10 @@ source:
 
 build:
   noarch: generic
-  number: 0
+  number: 1
 
 requirements:
-  build:
+  host:
     - maven
     - openjdk =11
     - python >=3.9
