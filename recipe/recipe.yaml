@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 18.6.1
+  version: "18.7.0"
   python_min: 3.10
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/ltex-plus/ltex-ls-plus/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 16fa8c88cea5f579fba4a33c7c89b15a1ed45b9b14dd32a07aee740b3d5506c9
+  sha256: 8c5ad69fdbf38061bc511439473b081f2b2db35b0f4788f3516c632345788d2f
 
 build:
   number: 0
