@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   version: "18.7.0"
-  python_min: 3.10
+  python_min: "3.11"
 
 package:
   name: ltex-ls
@@ -20,7 +20,7 @@ requirements:
   host:
     - maven
     - openjdk
-    - python >=${{ python_min }}
+    - python =${{ python_min }}
     - sed
   run:
     - openjdk
