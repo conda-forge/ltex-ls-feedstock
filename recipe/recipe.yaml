@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "18.7.0"
+  version: "19.0.0"
 
 package:
   name: ltex-ls
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/ltex-plus/ltex-ls-plus/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 8c5ad69fdbf38061bc511439473b081f2b2db35b0f4788f3516c632345788d2f
+  sha256: f0f11b729bc93678d4747b3998fd056459afa8ff6d8a98e4de031bdb9ee7648f
 
 build:
   number: 0
